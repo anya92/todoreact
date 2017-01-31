@@ -9,7 +9,7 @@ class Avatar extends Component {
         <Row>
           <Col xs={10} />
           <Col xs={2}>
-            <Image src={avatarSrc} style={{ width: '100px', height: '100px' }} thumbnail circle />
+            <Image src={avatarSrc} thumbnail circle />
           </Col>
         </Row>
       </div>
